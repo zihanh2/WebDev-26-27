@@ -17,7 +17,6 @@ nav a:hover{
 div a{
   padding: 3px;
 }
-
 .container{
   display: flex;
 }
@@ -28,10 +27,15 @@ div a{
   align-items: center;
   justify-content: center;
 }
-
 #links{
+  border: 1px black outset;
+  box-shadow: 2px 0px;
+}
+#links a{
   color: black;
-  box-shadow: 2px;
+  flex: 1;
+}
+#banner div{
   flex: 1;
 }
 #main{
